@@ -308,7 +308,7 @@ It leads to elegant solutions and the code can be clearer and simpler.
 
 ### The Channel Guide
 
-Clone this practice folder, and solve the problem in the Readme.md file. Please start working with group members for this example if possible, remember there is a group project soon.
+Clone this practice folder, and solve the problem in the Readme.md file. Please start working with group members for this example if possible, remember there is a group project soon. The answers will be posted Tuesday 24th.
 
 For this example we will write a program to read the television channel data from a data set. Each television channel in the set consists of a number followed by a name on the same line.  Please start working with group members for this example if possible, remember there is a group project soon.
 
