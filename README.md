@@ -154,9 +154,9 @@ This algorithm does not take advantage of the fact that the list is pre-sorted.
 
 * Repeat
 
-![Steps](Steps.jpg)
+![Steps](images/Steps.jpg)
 
-![Steps](Tree.png)
+![Steps](images/Tree.png)
 
 ```java
 /**
