@@ -1,0 +1,161 @@
+160
+161 A&E
+4 ABC - WTAE
+179 ABC Family
+88 ABC News Now
+201 AMC
+247 AZN Television
+213 AmericanLife TV
+110 Animal Planet
+169 BBC America
+92 BBC World
+240 BET
+195 BET Gospel
+190 BET Jazz
+109 Bio Channel
+319 Blackbelt TV
+85 Bloomberg TV
+228 Boomerang
+165 Bravo
+248 Bridges TV
+89 C-SPAN
+90 C-SPAN 2
+91 C-SPAN 3
+2 CBS - KDKA
+191 CMT
+192 CMT Pure Country
+83 CNBC
+87 CNBC World
+80 CNN
+81 CNN Headline News
+86 CNN International
+3 CW - WPCW
+227 Cartoon Network
+395 Cinemax
+170 Comedy Central
+5 Cornerstone
+162 Crime & Investigation Network
+147 DIY
+268 Daystar
+100 Discovery Channel
+141 Discovery Health
+148 Discovery Home
+229 Discovery Kids
+103 Discovery Times
+220 Disney
+176 E! Entertainment Network
+60 ESPN
+64 ESPN 2
+61 ESPN Classic Sports
+63 ESPNU
+62 ESPNews
+260 EWTN
+348 Encore
+7 FOX - WPGH
+231 FUNimation
+186 FUSE
+53 FX
+212 Family Net
+146 Fine Living
+143 Fit TV
+381 Flix
+144 Food Network
+94 Fox Business Network
+300 Fox College Sports
+202 Fox Movie Channel
+82 Fox News
+177 Fox Reality
+76 Fox Soccer Channel
+66 Fox Sports Net Pittsburgh
+311 Fox Sports en Espanol
+178 Fuel
+171 G4
+225 GAS
+164 GSN
+244 Galavision
+313 GolTV
+305 Golf Channel
+194 Gospel Music Channel
+193 Great American Country
+390 HBO
+145 HGTV
+249 HITn
+131 HSN
+210 Hallmark Channel
+108 History Channel
+107 History Channel International
+316 Horse Racing TV
+262 I-Life
+385 Independent Film Channel
+185 International Music Feed
+135 Jewelry
+120 Lifetime
+121 Lifetime Movie Network
+122 Lifetime Real Women
+167 Logo
+84 MSNBC
+180 MTV
+184 MTV Hits
+183 MTV Jams
+243 MTV Tres
+181 MTV2
+10 MY TV - WPMY
+318 Mav TV
+105 Military Channel
+106 Military History Channel
+245 Mun2
+11 NBC - WPXI
+72 NFL Network
+101 National Geographic Channel
+223 Nick Too
+224 Nick Toons
+222 Nickelodeon
+226 Noggin
+307 Outdoor Channel
+168 Ovation
+124 Oxygen
+13 PBS - WQED
+232 PBS KIDS Sprout
+104 Pentagon Channel
+130 QVC
+160 Sci-Fi Channel
+102 Science Channel
+137 Shop NBC
+361 Showtime
+246 Si TV
+166 Sleuth
+123 SoapNet
+199 Soundtrack Channel
+71 Speed Channel
+54 Spike TV
+340 Starz
+140 Style
+384 Sundance
+8 Superstation
+52 TBS
+119 TLC
+51 TNT
+48 TV Guide Network
+111 TV Info
+214 TV Land
+241 TV One
+303 Tennis Channel
+377 The Movie Channel
+308 The Sportsman Channel
+99 The Weather Channel
+267 The Word Network
+221 Toon Disney
+150 Travel Channel
+270 Trinity Broadcasting Network
+163 TruTV
+200 Turner Classic Movies
+50 USA Network
+75 VERSUS
+187 VH1
+188 VH1 Classic
+189 VH1 Soul
+230 Varsity
+149 Wealth TV
+49 Weatherscan Local
+129 Women's Entertainment
+317 World Fishing Network
