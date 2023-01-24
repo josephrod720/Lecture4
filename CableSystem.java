@@ -1,6 +1,6 @@
 import java.util.*;
 import java.io.*;
-
+import java.util.Arrays;
 /**
  *   Class that implements a collection of cable tv channels
  *   in an array. 
@@ -47,6 +47,8 @@ public class CableSystem {
 			channelArray[i] = new Channel(number, name);
 		}
 
+		Arrays.sort(channelArray);
+
 	}
 	
 	/**
@@ -58,8 +60,25 @@ public class CableSystem {
 	 */
 	public int search1(String channelName) {
 
-		// Remove the following line when you complete this method	
-		return -999;
+		long startTime = System.currentTimeMillis();
+		for (int i = 0; i < numChannels; i++)
+		{
+			if(channelArray[i].getName().equals(channelName))/**compares channel name in index i with the channel name you are searching for */
+			{
+				System.out.println("Number of channels accessed: " + (i+1));/*prints out amount of channels accessed before getting to your channel */
+				return channelArray[i].getNumber();/** returns the channel number */
+
+			}
+			/**
+			 * I had trouble making the program exit after finding the channel I was looking for.
+			 */
+		}
+		
+		long endTime = System.currentTimeMillis();
+
+		System.out.println("Number of channelse accessed: " + numChannels);
+		System.out.println("Time elapsed: " + (endTime - startTime));
+		return -1;// return -1 if not found
 
 	}
 	
@@ -71,10 +90,49 @@ public class CableSystem {
 	 * @return the number of the channel if the cable system has the channel name, -1 otherwise
 	 */
 	public int search2(String channelName) {
-		
-		// Remove the following line when you complete this method
-		return -999;
 
+		int low = 0;
+		int mid = 0;
+		int high = numChannels - 1;
+		int channelsCounter = 0;
+		boolean found = false;
+		long startTime = System.currentTimeMillis();
+
+		/**
+		 * Searches for channel until it is found and low is >= to high
+		 * if it is not found program outputs NOT FOUND
+		 */
+		while (!found && low <= high )
+		{
+			mid = ( low + high ) / 2;
+			if(channelArray[mid].getName().compareTo(channelName) < 0)
+			{
+				low = mid + 1;//low is now mid +1 in the new search range
+				channelsCounter++;
+				found = false;
+			}
+			else if(channelArray[mid].getName().compareTo(channelName) > 0)
+			{
+				high = mid -1;//high is mid - 1 in the new search range
+				channelsCounter++;
+				found = false;
+			}
+			else{
+				found = true;
+				return channelArray[mid].getNumber(); // channel was found
+			}
+		}	
+		System.out.println("Number of Channels Accessed: " + channelsCounter);
+
+		long endTime = System.currentTimeMillis();
+		System.out.println("Time elapsed: " + (endTime - startTime));
+		/**
+		 * could not figure out why Time Elapsed was only a single digit
+		 * May be because I did not exit the for loops properly once I found my channel
+		 */
+
+	
+		return -1;
 	}
 
 	/**

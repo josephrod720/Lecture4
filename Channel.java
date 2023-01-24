@@ -6,7 +6,7 @@
  * @author tcortina
  *
  */
-public class Channel {
+public class Channel implements Comparable<Channel> {
 	
 	private int number;
 	private String name;
@@ -74,6 +74,24 @@ public class Channel {
 				   this.name == otherChannel.name;				
 		}
 		return false;
+	}
+
+	/**
+	 * Compares by channel number
+	 * Channel numbers were already sorted lexographically (by name)
+	 */
+	public int compareTo(Channel otherChannel){
+		if(this.number > otherChannel.getNumber())
+		{
+			return 1;
+		}
+		else if(this.number < otherChannel.getNumber())
+		{
+			return -1;
+		}
+		else{
+			return 0;
+		}
 	}
 
 	/**
